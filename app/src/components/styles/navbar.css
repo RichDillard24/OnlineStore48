@@ -1,0 +1,20 @@
+.menu{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: left;
+    background-color: aliceblue;
+}
+a{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: aqua;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}

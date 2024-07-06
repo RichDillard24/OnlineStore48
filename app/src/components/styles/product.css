@@ -1,0 +1,21 @@
+.product{
+    border: 1px solid #999;
+    border-radius: 4px;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+.product img{
+    width: 200px;
+
+}
+.product h5{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.product .control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

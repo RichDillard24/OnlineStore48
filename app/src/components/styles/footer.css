@@ -1,0 +1,12 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+}
+.content{
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}

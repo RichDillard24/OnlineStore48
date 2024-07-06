@@ -1,0 +1,19 @@
+import './styles/navbar.css'
+
+function Navbar(){
+    return(
+        <div>
+            <nav>
+                <div className="menu">
+                    <a href="">Log In</a>
+                    <a href="">Search</a>
+                    <a href="">Catalog</a>
+                    <a href="">Menu</a>
+                </div>
+            </nav>
+        </div>
+
+    );
+}
+
+export default Navbar;
