@@ -1,7 +1,9 @@
 import './styles/catalog.css';
 import Product from '../components/product';
-
+//TEST CHANGE
 const categories = ['Guitar', 'Bass','Drums','strings'];
+
+
 
 const data =[{
 
