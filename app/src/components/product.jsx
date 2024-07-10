@@ -13,11 +13,11 @@ function Product(props){
 
             <h5>{props.info.title}</h5>
 
-            <label>Total${props.info.price.toFixed(2)}</label>
+            <label>Total: ${props.info.price.toFixed(2)}</label>
             <label>${props.info.price.toFixed(2)}</label>
             <div className="control">
                 <QuantityPicker />
-                <button onClick={add} ></button>
+                <button className="btn btn-primary btn-sm" onClick={add} >Add</button>
             </div>
      </div>
     )

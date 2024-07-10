@@ -1,10 +1,12 @@
-.cataloge{
-    background-color: gray;
+.catalog{
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    margin-left: 5px;
    
 }
 
 .catalog h1{
-    color: aqua;
+    color: grey;
     text-align: center;
     margin: 0 0 12 px 0;
 

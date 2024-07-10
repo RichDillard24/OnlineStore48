@@ -1,0 +1,15 @@
+.home{
+    background-color: rgb(255, 255, 255);
+}
+.home h1{
+    color: black;
+    text-align: center;
+    margin: 0 0 12 px 0;
+}
+.home p{
+    font-size: 30px;
+}
+.img-1{
+    width: 100%;
+    height: 200px;
+}

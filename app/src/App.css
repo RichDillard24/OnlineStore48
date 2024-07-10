@@ -2,7 +2,7 @@
   text-align: center;
 }
 body{
-  background-color: grey;
+  background-color: gray;
 }
 .App-logo {
   height: 40vmin;
@@ -37,4 +37,7 @@ body{
   to {
     transform: rotate(360deg);
   }
+}
+.page{
+  min-height: calc(100vh - 122px);
 }

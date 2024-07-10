@@ -4,7 +4,7 @@ function Footer(){
     return(
         <div className="footer">
             <hr/>
-            <footer className="Content">
+            <footer className="content">
                 <div>
                     <span>2024 Company, Inc</span>
                 </div>

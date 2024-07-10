@@ -23,6 +23,8 @@ function QuantityPicker(){
 
             <button className='btn btn-sm btn-outline-success' onClick={increase}>+</button>
 
+            
+
         </div>
     )
 }
