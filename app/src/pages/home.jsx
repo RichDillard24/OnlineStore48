@@ -7,7 +7,7 @@ function Home(){
             <h1>Welcome to Gear Finder!</h1>
             <p>Discover our wide selection of instruments and accessories.</p>
 
-            <img classNmae="img-1" src='/img/guitarWall.jpg' alt=''/>
+            <img className="img-1" src='/img/guitarWall.jpg' alt=''/>
         </div>
     )
     
