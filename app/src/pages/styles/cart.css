@@ -45,4 +45,12 @@
     height: 100px;
     margin-right: 10px;
   }
+  .cart .btn-out{
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
   

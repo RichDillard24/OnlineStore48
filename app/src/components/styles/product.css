@@ -26,3 +26,12 @@
     align-items: center;
    
 }
+.product .btn-cart{
+    margin-left: 5px;
+    
+}
+.product .total{
+    margin-right: 10px;
+    color: red;
+    font-weight: bold;
+}

@@ -37,7 +37,7 @@ function Product(props){
             <label>${props.info.price.toFixed(2)}</label>
             <div className="control">
                 <QuantityPicker onChange={handleQuantityChange}/>
-                <button className="btn btn-primary btn-sm" onClick={add} ><i class="fa-solid fa-cart-arrow-down"></i></button>
+                <button className="btn btn-primary btn-sm btn-cart" onClick={add} ><i class="fa-solid fa-cart-arrow-down "></i></button>
               
             </div>
      </div>
