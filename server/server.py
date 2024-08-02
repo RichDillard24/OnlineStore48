@@ -29,14 +29,39 @@ def fix_id(obj):
 @app.post("/api/products")
 def save_product():
     newItem = request.get_json()
-    print(newItem)
     db.products.insert_one(newItem)
     return json.dumps(fix_id(newItem))
 
 
 @app.get("/api/products")
 def get_product():
-    return json.dump(items)
+    #reads all products from the database
+    cursor = db.products.find({})
+    results = []
+    for prod in cursor:
+        if "catagory" in prod:
+         results.append(fix_id(prod))
+    
+    return json.dumps(results)
 
+
+@app.get("/api/categories")
+def get_categories():
+    cursor =db.products.find({})
+    cats = []
+    for prod in cursor:
+         if "catagory" in prod:
+             cat= prod["catagory"]
+             if cat not in cats:
+                cats.append(prod["catagory"])
+    
+   
+    
+    return json.dumps(cats)
 
 app.run(debug = True ) 
+
+
+#rest api
+# rest tools => rest ipa
+#postman, 

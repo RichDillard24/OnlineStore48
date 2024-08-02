@@ -21,14 +21,14 @@ const data =[{
 {
     title: "Evh Wolfgang blue",
     price: 1099,
-    catagory: "guitar",
+    category: "guitar",
     image: "evhwvgblue.jpeg",
     _id: "9"
     },
 {
     title: "Schecter Bass",
     price: 950,
-    catagory: "bass",
+    category: "bass",
     image: "schtBass.jpeg",
     _id: "10"
     },
@@ -56,7 +56,7 @@ const data =[{
 {
     title: "Ludwig 5 Piece Kit",
     price: 1700,
-    catagory: "drum",
+    category: "drum",
     image: "ludwigDrum.jpg",
     _id: "12"
     },
