@@ -1,3 +1,4 @@
+import axios from "axios";
 
 const categories = ['Guitar', 'Bass','Drums','Accessories'];
 
@@ -94,17 +95,19 @@ const data =[{
 
 class DataService {
 
-    getProducts(){
-        return data;
+    async getProducts(){
+        
+        let response = await axios.get("http://127.0.0.1:5000/api/products")
+        return response.data
 
     }
 
 
-    getCategory(){
-        return categories;
+    async getCategory(){
 
-
-
+        let response = await axios.get("http://127.0.0.1:5000/api/categories");
+        return response.data
+      
     }
 
 }

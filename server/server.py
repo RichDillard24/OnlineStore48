@@ -1,11 +1,13 @@
 from flask import Flask, request
 import json
 from config import db
+from flask import CORS
 
 #globalVariables
 items = []
 
 app = Flask(__name__)
+CORS(app)
 
 @app.get("/")
 def home():
